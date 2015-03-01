@@ -1,0 +1,20 @@
+<Alloy>
+    <Window id="selector">
+        <View id="overlay"/>
+        <Label id="close"/>
+        <View id="wrapper">
+            <Label id="title"/>
+            <Button id="newItem" systemButton="DONE"></Button>
+            <ListView id="selectionList" defaultItemTemplate="base">
+                  <Templates>
+                          <ItemTemplate name="base">
+                              <View class="wrapper">
+                                    <Label bindId="name" class="name" />
+                              </View>
+                          </ItemTemplate>
+                  </Templates>
+                  <ListSection id="section"/>
+            </ListView>
+        </View>
+    </Window>
+</Alloy>

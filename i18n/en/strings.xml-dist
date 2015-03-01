@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="selector_close">Close X</string>
+  <string name="selector_select">Seleccionar elemento de la lista</string>
+  <string name="selector_new_element">New</string>
+</resources>

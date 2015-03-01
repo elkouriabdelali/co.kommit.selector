@@ -1,0 +1,14 @@
+{
+	"id": "com.kommit.selector",
+	"name": "List Selector",
+	"description" : "A Widget for alloy multi item selector",
+	"author": "Cristian V",
+	"version": "0.0.1",
+	"copyright":"Copyright (c) 2014",
+	"license":"MIT - http://alco.mit-license.org",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios"
+}
+
