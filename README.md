@@ -14,7 +14,7 @@ with a simple Array
   var items = ["one", "two", "three", "fourt];
   
 
-  Alloy.createWidget('com.kommit.selector').init({list: items, title: "Title for modal"}, function(selected) {
+  Alloy.createWidget('com.kommit.selector').init({list: items, title: "Select one item"}, function(selected) {
         alert("the item " + selected + "was selected");
   });
   
