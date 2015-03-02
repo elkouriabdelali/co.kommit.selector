@@ -9,12 +9,12 @@ with a simple Array
 
 ```javascript
   
-  // Alloy.createWidget('com.kommit.selector').init({list: someArray, title: "some title"}, afterSelectCallback, createNewCallback);
+  // Alloy.createWidget('co.kommit.selector').init({list: someArray, title: "some title"}, afterSelectCallback, createNewCallback);
   
   var items = ["one", "two", "three", "fourt];
   
 
-  Alloy.createWidget('com.kommit.selector').init({list: items, title: "Select one item"}, function(selected) {
+  Alloy.createWidget('co.kommit.selector').init({list: items, title: "Select one item"}, function(selected) {
         alert("the item " + selected + "was selected");
   });
   
